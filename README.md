@@ -12,7 +12,7 @@ Edit the `.env` and `default.conf`(Nginx), file with the desired configurations.
 ### Option 2 
 `docker-compose up -d`
 
-After running the `docker-compose.yml` stack you will need to copy the `default.conf` in the directory `conf.d` that Nginx created.
+After running the `docker-compose.yml` stack you will need to copy the `default.conf` in the directory `conf.d/` that Nginx created.
 
 Then run
 `docker-compose up -d --force-recreate`
