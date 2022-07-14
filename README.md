@@ -1,10 +1,10 @@
-# 📝Joplin Server docker-compose
+# 📝 Joplin Server docker-compose
 Self-hosted Joplin Server.
 
 ## 🏗️ Setup
 Edit the `.env` and `default.conf`(Nginx), file with the desired configurations.
 
-## 🏗️ How to Run
+## 🚀 How to Run
 ### Option 1
 * `chmod +x run.sh`
 * `./run.sh`
@@ -17,7 +17,7 @@ After running the `docker-compose.yml` stack you will need to copy the default.c
 Then run
 `docker-compose up -d --force-recreate`
 
-## ℹ️Information
+## ℹ️ Information
 Visit [http://your_server:22300/login](http://your_server:22300/login) and use the default credentials:
 * Email: `admin@localhost`
 * Password: `admin`
