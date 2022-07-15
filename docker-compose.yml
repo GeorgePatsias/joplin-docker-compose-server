@@ -2,7 +2,7 @@ version: '3'
 
 services:
     postgres:
-        image: postgres:latest
+        image: postgres:alpine
         container_name: postgres
         env_file: .env
         volumes:
@@ -31,7 +31,7 @@ services:
             - POSTGRES_HOST=postgres
 
     nginx:
-        image: nginx:latest
+        image: nginx:stable-alpine
         container_name: nginx
         restart: always
         ports:
