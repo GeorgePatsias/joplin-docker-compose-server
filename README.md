@@ -36,3 +36,6 @@ Visit [http://your_server:22300/login](http://your_server:22300/login) and use t
 * Password: `admin`
 
 Consider changing the credentials after login.
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/UserX)
+
